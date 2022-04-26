@@ -1,0 +1,85 @@
+/* ==========================
+link google font
+============================*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Courgette&family=Lobster+Two&display=swap');
+/* ==========================
+Basic Setting
+============================*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Amatic SC', cursive;
+    transition: .5s all ease;
+}
+
+/* ===========================
+main css
+============================= */
+body
+{
+    background-color: #444;
+    color: azure;
+}
+.container
+{
+    background-color: #666;
+    width: 60vw;
+    margin: auto;
+    margin-top: 5vh;
+    height: 70vh;
+    box-shadow: 10px 10px 30px 5px #222;
+    text-align: center;
+}
+button
+{
+    font-family: 'Courgette', cursive;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: aquamarine;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow:8px 8px 5px 0px rgba(68, 68, 68, 0.575);
+    color: palevioletred;
+    font-size: 1.5rem;
+}
+button:hover
+{
+    width: 83%;
+    background-color: rgba(127, 255, 212, 0.664);
+    border-radius: 15px;
+    box-shadow:8px 8px 5px 0px rgba(68, 68, 68, 1);
+}
+button:focus
+{
+    background-color: rgba(27, 255, 225, 0.555);
+    box-shadow: 8px 8px 5px 0px rgba(68, 68, 68, .7);
+}
+button:active
+{
+    background-color: rgba(127, 255, 212, 0.664);
+    box-shadow:inset 8px 8px 5px 0px rgba(68, 68, 68, .7);
+}
+.result
+{
+    font-family: 'Lobster Two', cursive;
+    color: violet;
+    padding: 40px 0;
+    text-shadow: 0px 0px 30px #eee;
+}
+footer
+{
+    height: 5rem;
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(30, 40,50,1), rgba(0, 0, 0, 0));
+}
+footer p
+{
+    text-align: center;
+    line-height: 5rem;
+    word-spacing: 4px;
+}
